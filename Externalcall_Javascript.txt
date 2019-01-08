@@ -1,0 +1,8 @@
+<html>
+<head>
+<title> JAVASCRIPT</title>
+<script src="First_JavaScript.js" type ="text/javascript">
+</script>
+</head>
+</head>
+</html>

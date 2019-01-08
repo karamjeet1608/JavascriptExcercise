@@ -1,0 +1,38 @@
+<html>
+<head>
+<title> Calculator</title>
+<script type="text/javascript">
+
+function add_Number()
+{
+
+    var num1 = parseFloat(document.getElementById("Number1").value);
+ 
+    var num2 = parseFloat(document.getElementById("Number2").value);
+    
+    var result = num1+num2;
+ 
+
+    document.getElementById("Result").value = result;
+}
+
+</script>
+
+</head>
+<input id= "Number1" placeholder="Enter Number 1">
+
+<br><br>
+
+<input id= "Number2" placeholder="Enter Number 2">
+
+<br><br>
+
+<input id= "Result" >
+
+<br><br>
+
+<button onclick = "add_Number()" id = "btn1">Calculate</button>
+
+</head>
+
+</html>

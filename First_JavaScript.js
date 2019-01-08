@@ -1,0 +1,1 @@
+document.write("<h1>An Introduction to JavaScript</h1>")
