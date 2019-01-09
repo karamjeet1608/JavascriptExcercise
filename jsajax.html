@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div id="call">
+<h2>Ajax Example</h2>
+<button type="button" onclick="changeText()">Update Text</button>
+</div>
+<script>
+function changeText() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("call").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "updateText.txt", true);
+  xhttp.send();
+}
+</script>
+</body>
+</html>

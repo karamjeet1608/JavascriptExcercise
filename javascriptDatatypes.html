@@ -1,0 +1,41 @@
+<html>
+<body>
+<center>
+<p>Session on Variables,Datatypes and Operators:</p>
+<p>Numbers can be written as:</p>
+<p id="numbers"></p>        
+<script>
+var x1 = 19.20;
+var x2 = 09;
+var x3 = 12.14;
+document.getElementById("numbers").innerHTML =
+x1 + "<br>" + x2 + "<br>" + x3;
+</script>
+
+<p>Booleans can be either true or false:</p>
+<p id="boolean"></p>
+<script>
+var a = 5;
+var b = 5;
+var c = 6;
+document.getElementById("boolean").innerHTML =
+(a == b) + "<br>" + (a == c);
+</script>
+<p>Array </p>
+<p id="array"></p>
+<script>
+var sessions = ["History of Javascripts","Fundamental of Javascripts","Data types in Javascript"];
+sessions.forEach(myFunction);
+document.getElementById("array").innerHTML = sessions[0];
+</script>
+<p>Basic Operators:</p>
+<p id="operators"></p>
+<script>
+var a = 100;
+var b = 50;
+var u = a + b;
+document.getElementById("operators").innerHTML = u;
+</script>
+</center>
+</body>
+</html>
