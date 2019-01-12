@@ -2,8 +2,28 @@
 <head>
 <title> JAVASCRIPT Objects</title>
 <center>
+    <script type="text/javascript">
+      //  object Constructor function
+      //the way to create an "object type", is to use an object constructor function.
+      //Objects of the same type are created by calling the constructor function with the new keyword:
+      //In JavaScript, the thing called this is the object that "owns" the code.
+      //The value of this, when used in an object, is the object itself.
+      
+    /*function Car(car_brand, car_model, car_price) {
+            this.car_brand = car_brand;
+            this.car_model = car_model;
+            this.car_price = car_price;
+            }
+      
+            var myCar = new Car("Honda","civic",3500);
+        document.write("<h1>" + myCar.car_brand+ "</h1>");
+        document.write("<h2>"+ myCar.car_model+"</h2>");
+        document.write("<h3>"+ myCar.car_price+"</h3>");*/
+        </script>
 <script type="text/javascript">
 // literal object creation
+//literal notation takes less space in the source code.
+
 var car = { car_brand: "Honda", car_model : "civic", car_price : 3500,
 hondatestfunction : function()
 {
@@ -13,7 +33,7 @@ hondatestfunction : function()
 document.write("<h1>" + car.car_brand+ "</h1>");
 document.write("<h2>"+ car.car_model+"</h2>");
 document.write("<h3>"+ car.car_price+"</h3>");
-</script>
+</script> 
 </center>
 </head>
 </head>

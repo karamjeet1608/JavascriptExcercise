@@ -16,7 +16,7 @@ x1 + "<br>" + x2 + "<br>" + x3;
 <p id="boolean"></p>
 <script>
 var a = 5;
-var b = 5;
+var b = 9;
 var c = 6;
 document.getElementById("boolean").innerHTML =
 (a == b) + "<br>" + (a == c);
@@ -25,8 +25,7 @@ document.getElementById("boolean").innerHTML =
 <p id="array"></p>
 <script>
 var sessions = ["History of Javascripts","Fundamental of Javascripts","Data types in Javascript"];
-sessions.forEach(myFunction);
-document.getElementById("array").innerHTML = sessions[0];
+document.getElementById("array").innerHTML = sessions[2];
 </script>
 <p>Basic Operators:</p>
 <p id="operators"></p>
@@ -35,6 +34,8 @@ var a = 100;
 var b = 50;
 var u = a + b;
 document.getElementById("operators").innerHTML = u;
+console.log (u);
+alert("this is an alert message");
 </script>
 </center>
 </body>
