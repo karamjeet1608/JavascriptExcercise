@@ -1,0 +1,39 @@
+<html>
+<head>
+<title> JAVASCRIPT</title>
+<center>
+<script type="text/javascript">
+//callback functions
+/**function ask(question, ye, no)
+{
+    if (confirm(question)) yes()
+    else no();
+}
+
+function showOk()
+{
+        alert("You agreed..");
+}
+
+function showCancel()
+{
+    alert("You canceled the execution..");
+}
+
+ask("do you agree", showOk(), showCancel());**/
+
+function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+
+ask(
+  "Do you agree?",
+  function() { alert("You agreed."); },
+  function() { alert("You canceled the execution."); }
+);
+</script>
+</center>
+</head>
+</head>
+</html>

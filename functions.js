@@ -75,7 +75,35 @@ function mathSubtraction(a, b)
 {
     return a-b;
 }
-
 let diff = mathSubtraction(345,9870)
 console.log(diff);
 
+//The syntax that we used before is called a Function Declaration:
+//There is another syntax for creating a function that is called a Function Expression.
+
+let displayHello = function()
+{
+    console.log("hello");
+}
+
+console.log(displayHello);
+
+//We can copy a function to another variable:
+
+function  displayHellos()
+{
+    console.log("Hello");
+}
+
+let func = displayHellos
+
+func();
+displayHellos();
+// arrow function
+let age = prompt("What is your age?", 18);
+
+let welcome = (age < 18) ?
+  () => alert('Hello') :
+  () => alert("Greetings!");
+
+welcome();
