@@ -57,5 +57,15 @@ array.slice(1,4);
 console.log(array);
 console.log(array.length);
 console.log(array.indexOf("Sunny Banavalikar"));
-console.log(array.indexOf("Komal"));
-
+console.log(array.indexOf("Komal")); 
+// function to find sum of elements of the array
+function sum()
+{
+    let sum = 0
+    let add = [2,3,4,5,6]
+    for(let i = 0; i<=(add.length)-1; i++)
+    {
+        sum = sum + add[i];
+     }
+    console.log(sum);
+}
